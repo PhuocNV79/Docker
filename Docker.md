@@ -15,10 +15,11 @@
  - `docker run thamSoCuaLenh tenImage(hoac id cua image) commandMuonChay(optional)` : Để chạy các image thì dùng câu lệnh;
       - ex: docker run -it idimage
  - `docker ps` : Kiểm tra có container nào đang chạy;
+ -  - `docker start idcontainer` : start container đang off;
  - `docker attach idcontainer` : Để vào 1 container nào đó;
- - Để thoát và tắt container thì dùng lệnh exit, nếu thoát mà ko muốn dừng thì dùng ctrl P Q
+ - Để thoát và tắt container thì dùng lệnh exit, nếu thoát mà ko muốn dừng thì dùng ctrl P Q;
  - `docker stop id` : Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh;
  - `docker rm idcontainer` : Muốn xoá 1 container thì dùng;
- - Có thể đặt tên cho container bằng -name, và đặt tên cho host bằng -h
+ - Có thể đặt tên cho container bằng -name, và đặt tên cho host bằng -h;
 
 
