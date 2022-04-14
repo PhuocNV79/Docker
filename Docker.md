@@ -12,13 +12,13 @@
   - Để tải 1 image về thì dùng câu lệnh "docker pull tenImage:tenPhienBan(hoac để trống tag hoặc latest để lấy phiên bản mới nhất), tenPhienBan ở trong thẻ tag ở trang hub.docker.com.
   - Để xoá 1 image thì dùng câu lệnh "docker image rm tenImage:tenPhienBan" hoặc "docker image rm IDImageCanXoa "
 #### 2. Lệnh run:
- - Để chạy các image thì dùng câu lệnh "docker run thamSoCuaLenh tenImage(hoac id cua image) commandMuonChay(optional) "
-      - docker run -it idimage
- - **docker ps** : Kiểm tra có container nào đang chạy;
- - **docker attach idcontainer** : Để vào 1 container nào đó;
+ - `docker run thamSoCuaLenh tenImage(hoac id cua image) commandMuonChay(optional)` : Để chạy các image thì dùng câu lệnh;
+      - ex: docker run -it idimage
+ - `docker ps` : Kiểm tra có container nào đang chạy;
+ - `docker attach idcontainer` : Để vào 1 container nào đó;
  - Để thoát và tắt container thì dùng lệnh exit, nếu thoát mà ko muốn dừng thì dùng ctrl P Q
  - `docker stop id` : Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh;
- - Muốn xoá 1 container thì dùng : docker rm idcontainer
- - Có thể đặt tên cho container bằng -name, và đặt tên cho host bằng -h 
+ - `docker rm idcontainer` : Muốn xoá 1 container thì dùng;
+ - Có thể đặt tên cho container bằng -name, và đặt tên cho host bằng -h
 
 
