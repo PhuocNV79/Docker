@@ -17,7 +17,7 @@
  - **docker ps** : Kiểm tra có container nào đang chạy;
  - **docker attach idcontainer** : Để vào 1 container nào đó;
  - Để thoát và tắt container thì dùng lệnh exit, nếu thoát mà ko muốn dừng thì dùng ctrl P Q
- - Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh : docker stop id
+ - `docker stop id` : Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh;
  - Muốn xoá 1 container thì dùng : docker rm idcontainer
  - Có thể đặt tên cho container bằng -name, và đặt tên cho host bằng -h 
 
