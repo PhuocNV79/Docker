@@ -1,3 +1,4 @@
+# DOCKER
 ## Tìm hiểu về Docker Image, chạy 1 container
 - Docker là công cụ tạo các vùng cách ly để chạy 1 ứng dụng
 
@@ -21,5 +22,10 @@
  - `docker stop id` : Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh;
  - `docker rm idcontainer` : Muốn xoá 1 container thì dùng;
  - Có thể đặt tên cho container bằng --name, và đặt tên cho host bằng -h `docker run -it --name "ABC" -h "hostName" idimage `
+
+
+***
+## D03: Docker exec, lưu container thành image, xuất image thành file
+
 
 
