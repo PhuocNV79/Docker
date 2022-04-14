@@ -1,5 +1,5 @@
 # DOCKER
-## Tìm hiểu về Docker Image, chạy 1 container
+## D01, D02 Tìm hiểu về Docker Image, chạy 1 container
 - Docker là công cụ tạo các vùng cách ly để chạy 1 ứng dụng
 
 ### Các lệnh của Docker:
@@ -27,5 +27,9 @@
 ***
 ## D03: Docker exec, lưu container thành image, xuất image thành file
 
+### Docker exec
+- `docker exec -it tenContainer cauLenh` : Khi đứng ở ngoài 1 container mà muốn chạy app ở trong nó
 
+### Docker commit
+- `docker commit tenContainer (hoac id) tenImageMuonDat:tenTagMuonDat`: Lưu container thành image
 
