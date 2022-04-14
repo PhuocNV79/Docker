@@ -14,8 +14,8 @@
 #### 2. Lệnh run:
  - Để chạy các image thì dùng câu lệnh "docker run thamSoCuaLenh tenImage(hoac id cua image) commandMuonChay(optional) "
       - docker run -it idimage
- - Kiểm tra có container nào đang chạy : docker ps
- - Để vào 1 container nào đó: docker attach idcontainer
+ - **docker ps** : Kiểm tra có container nào đang chạy;
+ - **docker attach idcontainer** : Để vào 1 container nào đó;
  - Để thoát và tắt container thì dùng lệnh exit, nếu thoát mà ko muốn dừng thì dùng ctrl P Q
  - Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh : docker stop id
  - Muốn xoá 1 container thì dùng : docker rm idcontainer
