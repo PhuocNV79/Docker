@@ -8,17 +8,19 @@
  #### 1. Lệnh images:
   - Image trong docker là gì: Đó là những phần mềm được quản lý bởi docker và không thể chỉnh sửa, image đóng gói các phần mềm như linux, mySQL...
   - Khi docker khởi chạy các images thì các phiên bản của image gọi là các container, container có thể ghi dữ liệu vào trong nó.
-  - Để kiểm tra docker đang có các image nào thì mình sử dụng câu lệnh là "docker images". Lúc này, terminal sẽ show ra dạng bảng các image đang có 
+  - `docker images` : Để kiểm tra docker đang có các image nào thì mình sử dụng câu lệnh là "docker images". Lúc này, terminal sẽ show ra dạng bảng các image đang có 
   - Để tìm các image thì vào trang hub.docker.com hoặc dùng câu lệnh "docker search tenTuKhoa "
   - Để tải 1 image về thì dùng câu lệnh "docker pull tenImage:tenPhienBan(hoac để trống tag hoặc latest để lấy phiên bản mới nhất), tenPhienBan ở trong thẻ tag ở trang hub.docker.com.
-  - Để xoá 1 image thì dùng câu lệnh ```docker image rm tenImage:tenPhienBan" hoặc "docker image rm IDImageCanXoa```;
+  - `docker image rm tenImage:tenPhienBan" hoặc "docker image rm IDImageCanXoa` : Để xoá 1 image ;
 #### 2. Lệnh run:
  - `docker run thamSoCuaLenh tenImage(hoac id cua image) commandMuonChay(optional)` : Để chạy các image thì dùng câu lệnh;
       - ex: docker run -it --name "ABC" idimage
+      - `-i` : co the tuong tac interact
+      - `-t` : ket noi voi terminal
  - `docker ps` : Kiểm tra có container nào đang chạy;
- -  - `docker start idcontainer` : start container đang off;
+ - `docker start idcontainer` : start container đang off;
  - `docker attach idcontainer` : Để vào 1 container nào đó;
- - Để thoát và tắt container thì dùng lệnh exit, nếu thoát mà ko muốn dừng thì dùng ctrl P Q;
+ - Để thoát và tắt container thì dùng lệnh `exit`, nếu thoát mà ko muốn dừng thì dùng `ctrl P Q`;
  - `docker stop id` : Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh;
  - `docker rm idcontainer` : Muốn xoá 1 container thì dùng;
  - Có thể đặt tên cho container bằng --name, và đặt tên cho host bằng -h `docker run -it --name "ABC" -h "hostName" idimage `
