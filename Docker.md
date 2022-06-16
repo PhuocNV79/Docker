@@ -9,8 +9,8 @@
   - Image trong docker là gì: Đó là những phần mềm được quản lý bởi docker và không thể chỉnh sửa, image đóng gói các phần mềm như linux, mySQL...
   - Khi docker khởi chạy các images thì các phiên bản của image gọi là các container, container có thể ghi dữ liệu vào trong nó.
   - `docker images` : Để kiểm tra docker đang có các image nào thì mình sử dụng câu lệnh là "docker images". Lúc này, terminal sẽ show ra dạng bảng các image đang có 
-  - Để tìm các image thì vào trang hub.docker.com hoặc dùng câu lệnh "docker search tenTuKhoa "
-  - Để tải 1 image về thì dùng câu lệnh `docker pull tenImage:tenPhienBan`(hoac để trống tag hoặc latest để lấy phiên bản mới nhất), tenPhienBan ở trong thẻ tag ở trang hub.docker.com.
+  - `docker search tenTuKhoa` : Để tìm các image thì vào trang hub.docker.com hoặc dùng câu lệnh "docker search tenTuKhoa "
+  - `docker pull tenImage:tenPhienBan`: Để tải 1 image về thì dùng câu lệnh `docker pull tenImage:tenPhienBan`(hoac để trống tag hoặc latest để lấy phiên bản mới nhất), tenPhienBan ở trong thẻ tag ở trang hub.docker.com.
   - `docker image rm tenImage:tenPhienBan" hoặc "docker image rm IDImageCanXoa` : Để xoá 1 image ;
 #### 2. Lệnh run:
  - `docker run thamSoCuaLenh tenImage(hoac id cua image) commandMuonChay(optional)` : Để chạy các image thì dùng câu lệnh;
