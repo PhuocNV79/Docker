@@ -22,7 +22,7 @@
  - `docker attach idcontainer` : Để vào 1 container nào đó;
  - Để thoát và tắt container thì dùng lệnh `exit`, nếu thoát mà ko muốn dừng thì dùng `ctrl P Q`;
  - `docker stop id` : Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh;
- - `docker rm idcontainer` : Muốn xoá 1 container thì dùng;
+ - `docker rm idcontainer` : Muốn xoá 1 container thì dùng; `-f` dung de lam gi
  - Có thể đặt tên cho container bằng --name, và đặt tên cho host bằng -h `docker run -it --name "ABC" -h "hostName" idimage `
 
 
