@@ -41,4 +41,4 @@
 ## D04: Chia se du lieu trong Docker, tao va quan ly o dia docker volume
 
 - `docker run -it -v pathHost:pathContainer idImage` : chia se du lieu tu may host cho container
-- 
+- `docker run -it --name C2 --volumes-from 98 71` : mong muon container C2 doc duoc du lieu giong du container C1, C2 duoc tao tu image id 71, C1 co id 98
