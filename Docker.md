@@ -37,3 +37,8 @@
 - `docker save --output tenFileMuonLuu.tar` tenImageMuonLuu (hoac id)` : Lưu image thành file để chuyển cho máy khác
 - `docker load -i tenFileImage.tar` : Load 1 file image.tar trở thành 1 image;
 - `docker tag idImage tenimageMuonDat:tenTagMuonDat` : Khi load 1 image lên. nó chưa có tên và tag. dùng lệnh này để đặt tên cho nó;
+
+## D04: Chia se du lieu trong Docker, tao va quan ly o dia docker volume
+
+- `docker run -it -v pathHost:pathContainer idImage` : chia se du lieu tu may host cho container
+- 
