@@ -34,6 +34,6 @@
 
 ### Docker commit
 - `docker commit tenContainer (hoac id) tenImageMuonDat:tenTagMuonDat`: Lưu container thành image
-- `docker save --output tenFileMuonLuu.tag` tenImageMuonLuu (hoac id)` : Lưu image thành file để chuyển cho máy khác
+- `docker save --output tenFileMuonLuu.tar` tenImageMuonLuu (hoac id)` : Lưu image thành file để chuyển cho máy khác
 - `docker load -i tenFileImage.tar` : Load 1 file image.tar trở thành 1 image;
 - `docker tag idImage tenimageMuonDat:tenTagMuonDat` : Khi load 1 image lên. nó chưa có tên và tag. dùng lệnh này để đặt tên cho nó;
