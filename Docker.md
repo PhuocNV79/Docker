@@ -42,3 +42,8 @@
 
 - `docker run -it -v pathHost:pathContainer idImage` : chia se du lieu tu may host cho container
 - `docker run -it --name C2 --volumes-from 98 71` : mong muon container C2 doc duoc du lieu giong du container C1, C2 duoc tao tu image id 71, C1 co id 98
+- `docker volume ls` : kiem tra dang co nhung o dia nao trong docker
+- `docker volume create tenODia` : tao 1 o dia moi
+- `docker volume inspect tenODia` : kiem tra thong tin o dia
+- `docker volume rm tenODia` : xoa o dia tenODia
+- `docker run -it --mount source=DISK, target=pathContainer imageID`: gan o dia D2 vao container, de container luu du lieu co dinh o trong do
