@@ -54,4 +54,6 @@
 
 - `docker network ls` : kiem tra xem trong docker co nhung networks nao
 - `docker network inspect tenNetwork` : kiem tra thong tin network
-- 
+- `wget -O -ipCOntainer2` : Khởi chạy máy chủ web ở Container 2 từ Container 1. 2 container này dùng cùng mạng cầu
+- `docker run -it --name tenContainerMuonDat -p congMayHost:congContainer imageDetaoContainer` : tao 1 container, anh xa cong may host vao cong trong container
+### Các lệnh của Docker:
