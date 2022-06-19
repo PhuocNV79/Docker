@@ -41,7 +41,7 @@
 ## D04: Chia se du lieu trong Docker, tao va quan ly o dia docker volume
 
 - `docker run -it -v pathHost:pathContainer idImage` : chia se du lieu tu may host cho container
-- `docker run -it --name C2 --volumes-from 98 71` : mong muon container C2 doc duoc du lieu giong du container C1, C2 duoc tao tu image id 71, C1 co id 98
+- `docker run -it --name tenContainerMuonTao --volumes-from idContainerTruoc idImage` : mong muon container tenContainerMuonTao doc duoc du lieu giong du container C1, tenContainerMuonTao duoc tao tu image id idImage, C1 idContainerTruoc
 - `docker volume ls` : kiem tra dang co nhung o dia nao trong docker
 - `docker volume create tenODia` : tao 1 o dia moi
 - `docker volume inspect tenODia` : kiem tra thong tin o dia
