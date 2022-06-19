@@ -48,4 +48,10 @@
 - `docker volume rm tenODia` : xoa o dia tenODia
 - `docker run -it --mount source=DISK, target=pathContainer imageID`: gan o dia D2 vao container, de container luu du lieu co dinh o trong do
 - `docker volume create --opt device=pathHost --opt type=none --opt o=bind tenODiaMuonTao` : tao 1 o dia, chia se du lieu may host voi o dia do
+- `docker run -it -v tenODia:pathContainer idImage` : gan o dia duoc tao o phia tren, vao container
+- 
+## D05: Network trong docker
+
+- `docker network ls` : kiem tra xem trong docker co nhung networks nao
+- `docker network inspect tenNetwork` : kiem tra thong tin network
 - 
