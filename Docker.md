@@ -47,3 +47,5 @@
 - `docker volume inspect tenODia` : kiem tra thong tin o dia
 - `docker volume rm tenODia` : xoa o dia tenODia
 - `docker run -it --mount source=DISK, target=pathContainer imageID`: gan o dia D2 vao container, de container luu du lieu co dinh o trong do
+- `docker volume create --opt device=pathHost --opt type=none --opt o=bind tenODiaMuonTao` : tao 1 o dia, chia se du lieu may host voi o dia do
+- 
