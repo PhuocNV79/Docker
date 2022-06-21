@@ -59,4 +59,12 @@
 - `docker network create --driver bridge tenNetWork` : Tao ra 1 network co drive la bridge
 - `docker network rm tenNetwork` : xoa 1 network 
 - `docker network connect tenNetwork tenHoacIdContainerMuonketnoi` : Ket noi 1 container vao 1 mang nao do
-- 
+
+## D06 : Cài đặt, tạo, chạy PHP trong containter
+
+- `docker run -d --name tenContainer -h tenHost -v pathHost:pathContainer --network tenNetwork tenImage:tag` : tao container va chạy nền
+ + Chú ý : folder phải được share với docker nếu ko sẽ ra lỗi `Mount denied`
+- `docker exec -it tenContainer bash` : chay bash trong tenContainer
+- uncomment mod_proxy : Khi truy van den cac file co duoi .php thi apache se yeu cau server chay php-fpm thuc hien file do. De thuc hien duoc thi chung ta can nap cac modul cua proxy 
+  + `mod_proxy` : nap module proxy
+  + AddHandler : yeu cau apache chay php thong qua proxy  
