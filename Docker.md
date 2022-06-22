@@ -18,7 +18,7 @@
       - `-i` : co the tuong tac interact
       - `-t` : ket noi voi terminal
  - `docker ps` : Kiểm tra có container nào đang chạy;
- - `docker start idcontainer` : start container đang off;
+ - `docker start idcontainer` : start container đang off, co the start nhieu container cung luc;
  - `docker attach idcontainer` : Để vào 1 container nào đó;
  - Để thoát và tắt container thì dùng lệnh `exit`, nếu thoát mà ko muốn dừng thì dùng `ctrl P Q`;
  - `docker stop id` : Khi đứng ở root(host), muốn dừng 1 container nào đó thì dùng lệnh;
@@ -67,4 +67,11 @@
 - `docker exec -it tenContainer bash` : chay bash trong tenContainer
 - uncomment mod_proxy : Khi truy van den cac file co duoi .php thi apache se yeu cau server chay php-fpm thuc hien file do. De thuc hien duoc thi chung ta can nap cac modul cua proxy 
   + `mod_proxy` : nap module proxy
-  + AddHandler : yeu cau apache chay php thong qua proxy  
+  + AddHandler : yeu cau apache chay php thong qua proxy 
+
+## D10 : Tra cuu thong tin image, container, giam sat hoat dong
+- `docker image history idHoacNameContainer` : kiem tra lich su hinh thanh cua images
+- `docker logs idHoactenContainer` : kiem tra file log cua container
+- `docker logs --tail soDong idhoacTenContainer` : lay soDong cuoi cua file log
+- `docker logs -f idContainer` : phat sinh log realtime
+- `docker stats idhoacTenContainer` : kiem tra container do su dung tai nguyen may host
