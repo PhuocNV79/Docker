@@ -3,7 +3,7 @@
 - Docker là công cụ tạo các vùng cách ly để chạy 1 ứng dụng
 
 ### Các lệnh của Docker:
-- Để sử dụng docker trong terminal thì lệnh bắt đầu la "docker", theo sau là những lệnh con.
+- Để sử dụng docker trong terminal thì lệnh bắt đầu la "docker", theo sau là những Subcommands.
 - Ví dụ: docker image --help: để xem docker hướng dẫn về lệnh image
  #### 1. Lệnh images:
   - Image trong docker là gì: Đó là những phần mềm được quản lý bởi docker và không thể chỉnh sửa, image đóng gói các phần mềm như linux, mySQL...
