@@ -1,5 +1,7 @@
 # Huong dan su dung docker file
 (https://viblo.asia/p/tim-hieu-ve-dockerfile-va-tao-docker-image-V3m5WWag5O7)
+
+(https://hocchudong.com/docker-phan-3-huong-dan-su-dung-dockerfile-de-build-image/)
 ### Gioi thieu:
 - Docker co the build 1 image tu cac chi thi (instruction) tu dockerfile.
 - Dockerfile la 1 file text, khong co extension, dockerfile bao gom tat ca cac cau lenh co the chay tu commandline
