@@ -28,3 +28,5 @@
 - **ENV** : Chỉ thị ENV dùng để khai báo các biến môi trường. 
     Các biến này được khai báo dưới dạng key - value bằng các chuỗi. 
     Giá trị của các biến này sẽ có hiện hữu cho các chỉ thị tiếp theo của Dockerfile.
+- **CMD**: chỉ ra câu lệnh mặc định khi mà 1 container được khởi tạo từ Image. CMD sẽ luôn được chạy khi container được khởi tạo từ image.
+     - 1 container có thể có nhiều CMD. tìm hiểu
